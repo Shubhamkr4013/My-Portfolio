@@ -652,10 +652,25 @@ header .navbar ul li a:hover {
   color: rgb(255, 230, 0);
 }
 .work .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  margin: 2rem;
+   display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.work .box-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.work .box-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.work .box {
+  min-width: 300px;
+  flex: 0 0 auto;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
