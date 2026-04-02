@@ -39,19 +39,18 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+    event.preventDefault();
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
+    emailjs.init("-GtNsRYMKl0aKEM6G"); // new key
+
+    emailjs.sendForm('service_0wmq8b3', 'template_mubtk5h', this)
+        .then(function () {
+            alert("Message sent successfully");
+            document.getElementById("contact-form").reset();
+        }, function (error) {
+            alert("Failed " + error.text);
+        });
+});
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -247,3 +246,7 @@ srtop.reveal('.work .box', { interval: 200 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+
+
+

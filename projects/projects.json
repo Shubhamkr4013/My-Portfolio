@@ -5,36 +5,46 @@
 
  
 
-    "image": "portfolio1",
+    "image": "portfolio2",
     "category": "Drishtikone",
     "links": {
-      "view": "https://shubhamkr4013.github.io/Drishtikone-AI-Eyes-for-the-Visually-Impaired-Persion/",
-      "code": "https://github.com/Shubhamkr4013/Drishtikone-AI-Eyes-for-the-Visually-Impaired-Persion"
+      "view": "https://netra-ai-eyes-for-the-visually-impaired-3.onrender.com/",
+      "code": "https://github.com/Shubhamkr4013/NETRA-AI-Eyes-for-the-Visually-Impaired?tab=readme-ov-file"
     }
   },
-
-  {
-    "name": "Employee_Payroll_System",
-    "desc": "Java console project using JDBC & MySQL to manage employees, salaries, and payroll records.",
- 
-    "image": "portfolio2",
-    "category": "mern",
-    "links": {
-      "view": "https://github.com/Shubhamkr4013",
-      "code": "https://github.com/Shubhamkr4013/Employee_Payroll_System"
-    }
-  },
-
-
     {
     "name": "Console-Quiz-Application ",
-    "desc": "Quiz Application – Java Developed an MCQ-based quiz program in Java with timer, score tracking, and file-based question loading.  ",
+    "desc": "Console-based quiz application that allows users to answer questions, track scores, and evaluate performance through an interactive command-line interface.",
 
     "image": "portfolio3",
     "category": "Quiz",
     "links": {
       "view": "https://github.com/Shubhamkr4013",
-      "code": "https://github.com/Shubhamkr4013/Console-Quiz-Application"
+      "code": "https://github.com/Shubhamkr4013/quiz-webapp-Console-Based-"
+    }
+  },
+
+  {
+    "name": "PowerFit GYM",
+    "desc": "Modern fitness web app showcasing workouts, trainers, and progress tracking, delivering an interactive, user-friendly gym experience online.  ",
+
+    "image": "portfolio4",
+    "category": "GYM Website",
+    "links": {
+      "view": "hhttps://github.com/Shubhamkr4013/powerfit-gym?tab=readme-ov-file",
+      "code": "https://powerfit-gym.onrender.com/"
+    }
+  },
+
+  {
+    "name": "Restaurant-website",
+    "desc": "Responsive restaurant website showcasing menu, services, and contact details with interactive UI and smooth user experience.",
+ 
+    "image": "portfolio1",
+    "category": "Restaurant-website",
+    "links": {
+      "view": "https://shubhamkr4013.github.io/Restaurant-website-/",
+      "code": "https://github.com/Shubhamkr4013/Restaurant-website-"
     }
   }
 
