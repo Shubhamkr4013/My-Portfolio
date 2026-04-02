@@ -25,11 +25,11 @@
   },
 
   {
-    "name": "PowerFit GYM",
+    "name": "PowerFit-GYM",
     "desc": "Modern fitness web app showcasing workouts, trainers, and progress tracking, delivering an interactive, user-friendly gym experience online.  ",
 
     "image": "portfolio4",
-    "category": "GYM Website",
+    "category": "powerfit-gym",
     "links": {
       "view": "https://github.com/Shubhamkr4013/powerfit-gym?tab=readme-ov-file",
       "code": "https://powerfit-gym.onrender.com/"
@@ -46,7 +46,21 @@
       "view": "https://shubhamkr4013.github.io/Restaurant-website-/",
       "code": "https://github.com/Shubhamkr4013/Restaurant-website-"
     }
+  },
+
+   {
+    "name": "coming soon",
+    "desc": "loading...",
+ 
+    "image": "coming soon",
+    "category": "Coming-soon",
+    "links": {
+      "view": "",
+      "code": ""
+    }
   }
+
+  
 
 
 

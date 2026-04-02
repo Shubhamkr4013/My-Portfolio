@@ -652,12 +652,12 @@ header .navbar ul li a:hover {
   color: rgb(255, 230, 0);
 }
 .work .box-container {
-   display: flex;
-  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 10px;
-  scroll-behavior: smooth;
 }
+
+
 
 .work .box-container::-webkit-scrollbar {
   height: 8px;
@@ -668,10 +668,7 @@ header .navbar ul li a:hover {
   border-radius: 10px;
 }
 
-.work .box {
-  min-width: 300px;
-  flex: 0 0 auto;
-}
+
 .work .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
