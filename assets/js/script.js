@@ -58,19 +58,19 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Shubham Kumar";
+            $("#favicon").attr("href", "assets/images/favicon1.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#favicon").attr("href", "assets/images/favhand1.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Java Language","javascript", "C++ Language", "SQL ", "web development"],
+    strings: ["Core Java","javascript","Node.js","Express.js","Spring Boot", "C++ Language", "SQL ", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
